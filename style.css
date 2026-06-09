@@ -1,0 +1,1307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    top: 0;
+    background-color: white;
+    position: sticky;
+    box-shadow: 0 2px 10px black;
+    z-index: 1000;
+
+}
+
+.contener {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    color: rgb(224, 4, 4);
+
+}
+
+.giv {
+    margin-top: 10px;
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.giv a {
+    font-weight: bolder;
+
+}
+
+.tex ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin-left: 520px;
+    font-size: 17px;
+    margin-top: 15px;
+
+
+
+}
+
+.tex ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+
+
+}
+
+.btn {
+    margin-right: 26px;
+
+}
+
+.btn1 {
+    height: 45px;
+    width: 70px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(202, 29, 29);
+    font-size: 15px;
+}
+
+.btn1 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.btn2 {
+    height: 45px;
+    width: 77px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(216, 215, 215);
+
+
+}
+
+.btn2 a {
+    color: black;
+    text-decoration: none;
+
+}
+.pont-hero{
+    height: 4240px;
+}
+
+.pont {
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 23px;
+}
+
+.hero1 {
+    width: 190px;
+    height: 45px;
+    background-color: rgb(206, 28, 28);
+    border-radius: 15px;
+    border: none;
+    margin-top: 33px;
+
+}
+
+.hero1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+
+.pont {
+    display: flex;
+
+
+}
+
+.gig1 {
+    width: 560px;
+    height: 400px;
+    border-radius: 16px;
+    margin-left: 200px;
+
+}
+
+.sec {
+    margin-top: 200px;
+}
+
+.cep {
+    margin-left: 270px;
+
+}
+
+.ces1 {
+    font-size: 52px;
+
+}
+
+.ces2 {
+    font-size: 25px;
+    margin-top: 15px;
+
+}
+
+.hent {
+    width: 560px;
+    height: 572px;
+    background-color: rgb(230, 230, 230);
+    margin-top: 80px;
+    margin-left: 37px;
+    border-radius: 20px;
+
+}
+
+.hent1 {
+    background-color: white;
+    width: 320px;
+    height: 552px;
+    top: 20px;
+    border-radius: 20px;
+    padding: 25px;
+    position: relative;
+    margin-left: 100px;
+}
+
+.put {
+    width: 220px;
+    height: 42px;
+    margin-left: 32px;
+    border-radius: 15px;
+
+}
+
+.btc {
+    margin-top: 10px;
+    border: none;
+    gap: 5px;
+
+
+}
+
+.btc a {
+    text-decoration: none;
+
+}
+
+.btc1 {
+    width: 32%;
+    height: 36px;
+    background-color: rgb(198, 198, 198);
+    border-radius: 15px;
+    border: none;
+    /* position: relative; */
+
+
+}
+
+.btc2 {
+    width: 32%;
+    height: 39px;
+    background-color: rgb(142, 237, 0);
+    border-radius: 15px;
+    border: none;
+
+
+}
+
+.btc3 {
+    width: 32%;
+    height: 39px;
+    background-color: rgb(255, 0, 255);
+    border-radius: 15px;
+    border: none;
+}
+
+.bing {
+    width: 400px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+    right: 60px;
+}
+
+.div2 {
+    margin-left: 26px;
+    margin-top: 16px;
+}
+
+.pit1 {
+    width: 90px;
+    height: 45%;
+    border-radius: 15px;
+    margin-left: 15px;
+    background-color: rgb(116, 79, 30);
+    border: none;
+
+}
+
+.pit2 {
+    width: 90px;
+    height: 45%;
+    border-radius: 15px;
+    background-color: darksalmon;
+    border: none;
+
+}
+
+.pit3 {
+    width: 90px;
+    height: 45%;
+    border-radius: 15px;
+    background-color: indianred;
+    border: none;
+}
+
+.pit4 {
+    width: 90px;
+    height: 45%;
+    border-radius: 15px;
+    background-color: rgb(65, 4, 4);
+}
+
+.grid-contener {}
+
+.grat {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    margin-left: 00px;
+    padding: 0;
+}
+
+.grid1 {
+    background-image: url(./img2.jpg);
+    width: 150px;
+    height: 160px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    right: 20px;
+
+}
+
+.grid2 {
+    background-image: url(./img4.jpg);
+    width: 150px;
+    height: 123px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    right: 20px;
+
+
+
+}
+
+.grid3 {
+    background-image: url(./img7.jpg);
+    width: 150px;
+    height: 120px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    right: 20px;
+
+}
+
+.grid4 {
+    background-image: url(./img8.jpg);
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    right: 20px;
+    bottom: 30px;
+
+}
+
+.tit {
+    width: 94px;
+    height: 45px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 15px;
+
+}
+
+.tit a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.hent-container {
+    display: flex;
+
+}
+
+.het {
+    margin-top: 210px;
+    margin-left: 75px;
+    font-size: 22px;
+}
+
+.het2 {
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+.tit {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.root2 {
+    margin-top: 300px;
+    margin-left: 40px;
+}
+
+.fic {
+    font-size: 40px;
+}
+
+.fat {
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.jat {
+    margin-top: 10px;
+    width: 150px;
+    height: 45px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.jat a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.solid1 {
+    width: 540px;
+    height: 500px;
+    background-color: rgba(209, 207, 207, 0.863);
+    margin-top: 200px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.root1 {
+    display: flex;
+}
+
+.solid2 {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 70px;
+    border-radius: 20px;
+}
+
+.imeg {
+    width: 360px;
+    height: 240px;
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+
+.ket {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.kauc {
+    font-size: 20px;
+    margin-left: 20px;
+    color: rgb(184, 181, 181);
+}
+
+.cecon3 {
+    width: 560px;
+    height: 560px;
+    background-color: rgb(230, 230, 230);
+    margin-top: 60px;
+    margin-left: 40px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.pit {
+    background-image: url(./gil4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    left: 120px;
+    top: 80px;
+    position: relative;
+}
+
+.cep1 {
+    position: absolute;
+    bottom: 170px;
+    right: 220px;
+    height: 40px;
+    width: 130px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.cep1 a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.cep2 {
+    position: absolute;
+    left: 220px;
+    top: 40px;
+    height: 40px;
+    width: 130px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.cep2 a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.cep3 {
+    position: absolute;
+    top: 320px;
+    left: 240px;
+    height: 40px;
+    width: 130px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.cep3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.cecon2 {
+    display: flex;
+
+}
+
+.vit {
+    margin-left: 700px;
+    margin-top: 300px;
+}
+
+.big {
+    font-size: 42px;
+}
+
+.kut {
+    font-size: 22px;
+    margin-top: 13px;
+}
+
+.cud {
+    margin-top: 30px;
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+}
+
+.cud a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+}
+
+.bign {
+    background-image: url(./download\ \(2\).jpg);
+    position: absolute;
+    width: 100%;
+    height: 940px;
+    margin-top: 240px;
+}
+
+.nut {
+    position: relative;
+    margin-top: 220px;
+    color: white;
+    font-size: 80px;
+    margin-left: 50px;
+
+}
+
+form {
+    position: relative;
+    width: 480px;
+    height: 790px;
+    background-color: white;
+    border-radius: 30px;
+    left: 720px;
+    bottom: 34%;
+    box-shadow: 50px;
+    z-index: 2;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.wat {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.ces {
+    margin-left: 10px;
+    width: 40px;
+    height: 30px;
+}
+
+.form-content {
+    top: 50px;
+    position: absolute;
+    left: 25%;
+
+}
+
+
+
+input {
+    margin-top: 10px;
+    width: 250px;
+    height: 48px;
+    border-radius: 15px;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 20px;
+
+}
+
+.dit {
+    font-size: 14px;
+    color: rgb(108, 108, 108);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.sut {
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+
+.at {
+    color: rgb(108, 108, 108);
+
+}
+
+.get {
+    bottom: 20px;
+    width: 250px;
+    height: 46px;
+    border-radius: 15px;
+    font-size: 15px;
+    border: 1px solid rgb(194, 194, 194);
+    background-color: rgb(255, 0, 0);
+
+
+}
+
+.get a {
+    text-decoration: none;
+    color: white;
+}
+
+.yat {
+    margin-left: 110px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.gat {
+    margin-left: 55px;
+
+}
+
+.aey {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.fet {
+    margin-top: 20px;
+    margin-left: 18px;
+
+}
+
+.ate {
+    position: relative;
+    right: 120px;
+    top: 40px;
+    height: 50px;
+    width: 166%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(209, 209, 209);
+    text-align: center;
+}
+
+.footer-list {
+    display: flex;
+    color: white;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    margin-top: 92%;
+
+}
+
+.guv i {
+    font-size: 39px;
+
+}
+
+.kat {
+    margin-top: 290px;
+}
+
+.guv {
+    color: white;
+    font-size: 19px;
+    gap: 10px;
+}
+
+.tut {
+    margin-left: 10%;
+    margin-top: 80px;
+}
+
+.tut a {
+    text-decoration: none;
+
+}
+
+.rout {
+    margin-left: 280px;
+    margin-top: 50px;
+}
+
+.rout a {
+    text-decoration: none;
+}
+
+.bug {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.bug a {
+    text-decoration: none;
+}
+
+.ciut {
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.ciut a {
+    text-decoration: none;
+}
+
+/* responsiveness mobile view */
+@media(max-width:420px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 500px;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(177, 69, 55);
+    }
+
+    nav {
+        width: 92%;
+        height: 60px;
+        padding: 0;
+        padding-top: 10px;
+        background-color: rgb(159, 99, 91);
+
+
+    }
+
+    .contener {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .giv {
+        display: none;
+    }
+
+    .tex ul {
+        display: none;
+    }
+
+    .btn {}
+
+    .btn1 {
+        width: 40px;
+        height: 25px;
+        border-radius: 5px;
+    }
+
+    .btn1 a {
+        font-size: 10px;
+
+    }
+
+    .btn2 {
+        width: 40px;
+        height: 25px;
+        border-radius: 5px;
+    }
+
+    .btn2 a {
+        font-size: 10px;
+
+    }
+
+    .pot h1 {
+        font-size: 20px;
+        width: 250px;
+        text-align: center;
+        position: relative;
+        right: 30px;
+
+    }
+
+    .pont {
+        margin-top: 100px;
+    }
+
+    .hero1 {
+        width: 25%;
+        height: 37px;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+
+    .hero1 a {
+        font-size: 8px;
+    }
+
+    .hero2 {
+        font-size: 8px;
+        border: none;
+        background-color: rgb(177, 69, 55);
+
+
+    }
+
+    .pont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gig1 {
+
+        width: 50%;
+        height: 80px;
+        border-radius: 10px;
+        top: 40px;
+        right: 150px;
+        position: absolute;
+
+    }
+
+    .gig {
+        position: relative;
+
+    }
+
+    .cep {
+        margin-left: 20px;
+    }
+
+    .ces1 {
+        font-size: 17px;
+        margin-left: 10px;
+    }
+
+    .ces2 {
+        font-size: 8px;
+        text-align: center;
+        margin-right: 110px;
+        margin-top: 8px;
+    }
+
+    .grat {
+
+
+        right: 10px;
+    }
+
+    .grid1 {
+        width: 66px;
+        height: 44px;
+        position: relative;
+
+    }
+
+    .grid2 {
+        width: 66px;
+        height: 35px;
+        position: relative;
+
+    }
+
+    .grid3 {
+        width: 66px;
+        height: 38px;
+        position: relative;
+
+
+    }
+
+    .grid4 {
+        width: 66px;
+        height: 51px;
+        top: -14px;
+        position: relative;
+
+    }
+
+    .bing {
+        width: 180px;
+        height: 35px;
+        border-radius: 10px;
+        margin-left: 18px;
+        bottom: 30px;
+    }
+
+    .div2 {
+        font-size: 10px;
+    }
+
+    .pit1 {
+        width: 30px;
+        height: 20px;
+
+    }
+
+    .pit2 {
+        width: 30px;
+        height: 20px;
+    }
+
+    .pit3 {
+        width: 30px;
+        height: 20px;
+    }
+
+
+    .pit4 {
+        width: 30px;
+        height: 20px;
+    }
+
+    .btc1 {
+        width: 37px;
+        height: 20px;
+        border-radius: 5px;
+        padding: 0;
+        right: 20px;
+        position: relative;
+
+    }
+
+    .btc1 a {
+        font-size: 8px;
+    }
+
+    .btc2 {
+        width: 35px;
+        height: 20px;
+        border-radius: 5px;
+        padding: 0;
+        position: relative;
+        right: 13px;
+
+    }
+
+    .btc2 a {
+        font-size: 8px;
+    }
+
+    .btc3 {
+        width: 40px;
+        height: 20px;
+        border-radius: 5px;
+        margin-left: 20px;
+        padding: 0;
+        position: relative;
+        left: 50px;
+        bottom: 20px;
+
+    }
+
+    .btc3 a {
+        font-size: 8px;
+    }
+
+    .btc4 {
+        width: 36px;
+        height: 20px;
+        border-radius: 5px;
+        padding: 0;
+
+    }
+
+    .btc4 a {
+        font-size: 8px;
+    }
+
+    .put {
+        position: relative;
+        width: 99px;
+        height: 24px;
+        border-radius: 5px;
+        padding: 4px;
+        right: 30px;
+        font-size: 10px;
+        padding-left: 23px;
+    }
+
+    .hent1 {
+        width: 150px;
+        height: 252px;
+        right: 75px;
+
+        /* position: relative; */
+
+    }
+
+    .hent {
+        width: 200px;
+        height: 272px;
+        background-color: rgb(165, 154, 154);
+    }
+
+    .hent-container {
+        margin-left: 16px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .het {
+        margin-top: 40px;
+    }
+
+    .het1 {
+        font-size: 22px;
+        right: 125px;
+        margin: 0;
+        position: absolute;
+    }
+
+    .het2 {
+        font-size: 13px;
+        text-align: center;
+        width: 200px;
+        position: absolute;
+        right: 120px;
+        top: 140%;
+    }
+
+    .tit {
+        margin-top: 100px;
+        margin-left: 25px;
+        width: 60px;
+        height: 30px;
+        border-radius: 6px;
+
+    }
+
+    .tit a {
+        font-size: 12px;
+        border-radius: 15px;
+    }
+
+
+    .root2 {
+        position: relative;
+        bottom: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fic {
+
+        font-size: 20px;
+        width: 250px;
+        text-align: center;
+        right: 20px;
+        position: relative;
+    }
+
+    .fat {
+        font-size: 12px;
+        text-align: center;
+        right: 10px;
+        position: relative;
+
+
+    }
+
+    .jat {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 10px;
+        margin-left: 60px;
+    }
+
+    .solid2 {
+        position: absolute;
+        width: 170px;
+        height: 150px;
+        right: 16px;
+        bottom: 30px;
+    }
+
+    .solid1 {
+        position: absolute;
+        width: 200px;
+        height: 210px;
+        right: 120px;
+
+
+    }
+
+    .imeg {
+        width: 120px;
+        height: 100px;
+    }
+
+    .ket {
+        font-size: 15px;
+    }
+
+    .kauc {
+        font-size: 15px;
+    }
+
+    .cecon3 {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 10px;
+
+    }
+
+    .cep1 {
+        height: 30px;
+        width: 50px;
+        left: -20px;
+        top: 50px;
+        padding: 0;
+
+    }
+
+    .cep1 a {
+        font-size: 8px;
+    }
+
+    .cep2 {
+        height: 30px;
+        width: 50px;
+        top: 25PX;
+        left: 125px;
+        position: relative;
+    }
+
+    .cep2 a {
+        font-size: 10px;
+    }
+
+    .cep3 {
+        position: absolute;
+        height: 30px;
+        width: 55px;
+        top: 110px;
+        left: 120px;
+
+    }
+
+    .cep3 a {
+        font-size: 10px;
+    }
+
+    .pit {
+        width: 150px;
+        height: 150px;
+        left: 25px;
+        top: 20px;
+        position: relative;
+
+
+    }
+
+    .vit {
+        position: relative;
+        right: 630px;
+
+
+    }
+
+    .big {
+
+        text-align: center;
+        font-size: 16px;
+        width: 200px;
+
+
+
+    }
+
+    .kut {
+        font-size: 11px;
+        text-align: center;
+        width: 180px;
+
+
+
+    }
+
+    .cud {
+        margin-top: 30px;
+        width: 90px;
+        height: 30px;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 29px;
+
+    }
+
+    .cud a {
+        font-size: 12px;
+    }
+
+    .bign {
+        position: relative;
+        width: 92%;
+        height: 100px;
+        bottom: 150px;
+
+    }
+
+    .nut {
+        position: relative;
+        top: 900px;
+        font-size: 15px;
+        left: 50px;
+    }
+    .form {
+    position: relative;
+    width: 300px;
+    height: 40px;
+}
+.wt {
+    margin-top: px;
+    font-size: 10px;
+}
+form{
+    display: none;
+}
+.guv {
+    font-size: 10px;
+    gap: 5px;
+}
+.guv i{
+    font-size: 16px;
+    margin-left: 50px;
+
+} 
+.kat{
+    bottom: 88px;
+    position:absolute;
+    font-size: 14px;
+    left: 155px;
+}
+.rout{
+    display: none;
+
+}
+.bug{
+    display: none;
+}
+.footer-list{
+    bottom: 495px;
+    height: 200px;
+    position:relative;
+}
+.ciut{
+    display: none;
+}
+.pont-hero{
+    height: 900px;
+}
+
+
+}
